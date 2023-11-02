@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 #SPDX-FileCopyrighText: 2023 Atsuya Morita
 #SPDX-License-Identifier: BSD-3-Clause
 ng () {
