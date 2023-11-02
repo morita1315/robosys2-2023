@@ -2,10 +2,10 @@ name: test
 on: push          
 jobs:       
   test:
-    runs-in: ubuntu-latedt
+    runs-in: ubuntu-latest
     strategy:
       matrix:
-        pyyhon-version: ["3.7","3.8","3.9","3.10"]
+        python-version: ["3.7","3.8","3.9","3.10"]
       steps:    
     runs-on: ubuntu-latest
     steps:                   
