@@ -1,7 +1,12 @@
 name: test        
 on: push          
 jobs:       
-  test:           
+  test:
+    runs-in: ubuntu-latedt
+    strategy:
+      matrix:
+        pyyhon-version: ["3.7","3.8","3.9","3.10"]
+      steps:    
     runs-on: ubuntu-latest
     steps:                   
     - uses: actions/checkout@v3  
