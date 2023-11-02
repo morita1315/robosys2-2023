@@ -1,7 +1,7 @@
 #robosys2-2023
 2023/10/12 pmazing pwer
 #plusコマンド
-![test](https://github.com/morita1315/robosys2-2023/actions/workflows/test.yml/badge.svg)
+[![test](https://github.com/morita1315/robosys2-2023/actions/workflows/test.yml/badge.svg)](https://github.com/morita1315/robosys2-2023/actions/workflows/test.yml)
 ↑　テスト結果を反映したバッジの画像が埋め込まれる
 
 標準入力から読み込んだ数字を足す。
